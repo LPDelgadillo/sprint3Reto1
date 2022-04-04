@@ -1,0 +1,8 @@
+*{
+    background-color: #1C2230;
+    /* background: linear-gradient(#1C2230 50% ,#181F2B 50%, #181F2B 100%  ); */
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.imageBack{
+    background-image: url("../assets/fondoCurvo.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw 300px;
+}
+.ContenedorPrincipal{
+    margin: 3% 5% 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: transparent;
+}
+.ContenedorPrincipal img{
+    background-color: transparent;
+}
+.title{
+    font-size: 2.7rem;
+    margin: 2% 21%;
+    font-weight: 600;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.ContenedorPrincipal p{
+    font-size: 1.4rem;
+    margin:0 27%;
+    text-align: center;
+    font-weight: 300;
+    background-color: transparent;
+}
+.cartServ{
+    display: flex;
+    gap: 150px;
+    margin: 0 10%;
+    padding-top: 10%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    background-color: transparent;
+}
+.cartasServicios{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 15px;
+    width: 380px !important;
+    background-color: transparent;
+}
+.cartasServicios img{
+    background-color: #181F2B;
+}
+.titleCard{
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+}
+.cartasServicios1{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 420px ;
+    background-color: transparent;
+}
+.parrafoServicios{
+    font-size: 17px;
+    background-color: transparent;
+}
+.backgrounBlack{
+    background-image: url("../assets/colorfondo.png") ;
+    padding-bottom: 15rem;
+}
+.section2{
+    display: flex;
+    margin: 7%;
+    margin-top: 180px;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background-color: #181F2B;
+}
+.section2 img {
+    background-color: transparent;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: transparent;
+}
+.subTitle{
+    font-size: 2.5rem;
+    margin:0 10% 0 0 ;
+    font-family: 'Raleway', sans-serif;
+    background-color: transparent;
+}
+.parrSect2{
+    font-size: 1.125rem;
+    background-color: transparent;
+}
+.azul{
+    color: #62D9CD;
+    cursor: pointer;
+    background-color: transparent;
+}
+.section3{
+    display: flex;
+    margin: 0 10%;
+    gap: 40px;
+    background-color: #181F2B;
+}
+.comment{
+    /* border: 1px solid; */
+    background-color: #21293C;
+    width: 32% ;
+    padding: 40px 20px 30px;
+}
+.transp{
+    background-color: transparent;
+}
+.transp small {
+    font-size: 9px;
+}
+.avatarCargo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.avatarCargo img {
+    border-radius: 50%;
+    background-color: transparent;
+}
+.CartaRegistro{
+    position: relative;
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    left: 15%;
+    height: 35vh;
+    top: -600px;
+    border-radius: 20px;
+    box-shadow: 14px 14px 10px -9px rgba(0,0,0,0.75);
+    padding: 0 170px;
+    text-align: center;
+    gap: 25px;
+}
+.titleRegistro{
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.btnAzul{
+    background-color: #41afd0;
+    padding: 15px 40px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.inputRegistro{
+    background-color: white;
+    padding: 15px 125px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.fondBlack{
+    background-image: url("../assets/fondoNegro.png");
+    padding-bottom: 10vh;
+}
+.backgBlack img{
+    background-color: black;;
+}
+.logoFooter{
+    margin: 30vh 0 0 0;
+    margin-left: 8.4vw;
+    background-color: black;
+}
+.dispFlex{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex5{
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -200px;
+    gap: 15px;
+    background-color:black;
+    /* border: 1px solid; */
+}
+.pFooter{
+    font-size: 1.1rem;
+}
+.flex6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: black;
+}
+.flex7{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: -90px;
+    background-color: black
+}
+.flex8{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: -90px;
+    background-color: black;
+}
+.flex9{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 70px;
+}
+.flex10{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 160px;
+}
+.redes{
+    position: relative;
+    left: 250px;
+    bottom: 20px;
+}
